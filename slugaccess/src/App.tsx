@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router'
 import Home from './pages/Home'
-import Hello from './pages/Hello'
+import Map from './pages/Map'
 import Navbar from './components/Navbar'
 
 export default function App() {
@@ -9,7 +9,7 @@ export default function App() {
       <Navbar />
       <Routes>
         <Route path='/slugaccess/' element={<Home />} />
-        <Route path='/slugaccess/hello' element={<Hello />} />
+        <Route path='/slugaccess/map' element={<Map />} />
       </Routes>
     </>
   )
